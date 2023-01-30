@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .swing {
+    animation: swing 10s ease infinite;
+  }
+  @keyframes swing {
+    0%,
+    100% {
+      transform: rotate(-5deg);
+    }
+    50% {
+      transform: rotate(5deg);
+    }
+  }
+  .top--section {
+    width: 100%;
+    /* height: 600px; */
+    background: url("../public//images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  .hero--text {
+    height: fit-content;
+    /* font-size: 60px; */
+    color: white;
+    /* padding: 30px 100px 50px 30px; */
+    border: 2px solid white;
+  }
+}
