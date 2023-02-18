@@ -1,0 +1,220 @@
+[
+  {
+    "image": "/images/p1.jpg",
+    "name": "Compact home UPSs",
+    "parts": {
+      "part1": {
+        "image": "/images/p1part1.jpg",
+        "name": "Riello iPlug"
+      },
+      "part2": {
+        "image": "/images/p1part2.jpg",
+        "name": "Riello iDialog"
+      },
+      "part3": {
+        "image": "/images/p1part3.jpg",
+        "name": "Riello iDialog Rack"
+      },
+      "part4": {
+        "image": "/images/p1part4.jpg",
+        "name": "Riello Net Power"
+      }
+    }
+  },
+  {
+    "image": "/images/p2.jpg",
+    "name": "Office & IT UPSs",
+    "parts": {
+      "part1": {
+        "image": "/images/p2part1.jpg",
+        "name": "Sentinel Rack (SER)"
+      },
+      "part2": {
+        "image": "/images/p2part2.jpg",
+        "name": "Riello vision"
+      },
+      "part3": {
+        "image": "/images/p2part3.jpg",
+        "name": "Riello Vision Dual"
+      },
+      "part4": {
+        "image": "/images/p2part4.jpg",
+        "name": "Riello Vision Rack"
+      },
+      "part5": {
+        "image": "/images/p2part5.jpg",
+        "name": "Riello Sentinel Pro"
+      },
+      "part6": {
+        "image": "/images/p2part6.jpg",
+        "name": "Riello Sentinel Dual (Low power)"
+      },
+      "part7": {
+        "image": "/images/p2part7.jpg",
+        "name": "Riello Sentinel Dual (SDU)"
+      },
+      "part8": {
+        "image": "/images/p2part8.jpg",
+        "name": "Riello Multi Sentry"
+      }
+    }
+  },
+  {
+    "image": "/images/p3.jpg",
+    "name": "Modular UPSs",
+    "parts": {
+      "part1": {
+        "image": "/images/p3part1.jpg",
+        "name": "Riello Multi Power"
+      },
+      "part2": {
+        "image": "/images/p3part2.jpg",
+        "name": "Riello Multi Guard Industrial"
+      }
+    }
+  },
+  {
+    "image": "/images/p4.jpg",
+    "name": "Industrial UPSs",
+    "parts": {
+      "part1": {
+        "image": "/images/p4part1.jpg",
+        "name": "Riello Sentinel Power"
+      },
+      "part2": {
+        "image": "/images/p4part2.jpg",
+        "name": "Riello Multi Sentry"
+      },
+      "part3": {
+        "image": "/images/p4part3.jpg",
+        "name": "Riello Master MPS"
+      },
+      "part4": {
+        "image": "/images/p4part4.jpg",
+        "name": "Riello Master HP"
+      },
+      "part5": {
+        "image": "/images/p4part5.jpg",
+        "name": "Riello Master HE"
+      },
+      "part6": {
+        "image": "/images/p4part6.jpg",
+        "name": "NextEnergy NXE"
+      },
+      "part7": {
+        "image": "/images/p4part7.jpg",
+        "name": "Riello Master Industrial"
+      },
+      "part8": {
+        "image": "/images/p4part8.jpg",
+        "name": "Riello Master HP UL"
+      },
+      "part9": {
+        "image": "/images/p4part9.jpg",
+        "name": "Riello Master FC 400"
+      }
+    }
+  },
+  {
+    "image": "/images/p5.jpg",
+    "name": "Custom solutions",
+    "parts": {
+      "part1": {
+        "image": "/images/p5part1.jpg",
+        "name": "Riello Super Caps UPS"
+      },
+      "part2": {
+        "image": "/images/p5part2.jpg",
+        "name": "Riello UPS CSS"
+      },
+      "part3": {
+        "image": "/images/p5part3.jpg",
+        "name": "Riello Master VDC"
+      },
+      "part4": {
+        "image": "/images/p5part4.jpg",
+        "name": "Riello PowerBox"
+      }
+    }
+  },
+  {
+    "image": "/images/p6.jpg",
+    "name": "Switching systems",
+    "parts": {
+      "part1": {
+        "image": "/images/p5part1.jpg",
+        "name": "Riello Multi Switch 16 A"
+      },
+      "part2": {
+        "image": "/images/p6part2.jpg",
+        "name": "Riello Multi Switch ATS"
+      },
+      "part3": {
+        "image": "/images/p6part3.jpg",
+        "name": "Riello Master Switch in Single Phase"
+      },
+      "part4": {
+        "image": "/images/p6part4.jpg",
+        "name": "Riello Master Switch in Three Phase"
+      },
+      "part5": {
+        "image": "/images/p6part5.jpg",
+        "name": "Riello Master Static Bypass"
+      }
+    }
+  },
+  {
+    "image": "/images/p7.jpg",
+    "name": "Software & communication",
+    "parts": {
+      "part1": {
+        "image": "/images/p7part1.jpg",
+        "name": "Riello Power Shield"
+      },
+      "part2": {
+        "image": "/images/p7part2.jpg",
+        "name": "Riello PowerNetGuard"
+      },
+      "part3": {
+        "image": "/images/p7part3.jpg",
+        "name": "Riello NetMan 204 Plus"
+      },
+      "part4": {
+        "image": "/images/p7part4.jpg",
+        "name": "Riello MultiCOM 301-302"
+      },
+      "part5": {
+        "image": "/images/p7part5.jpg",
+        "name": "Riello MultiCOM 351/352"
+      },
+      "part6": {
+        "image": "/images/p7part6.jpg",
+        "name": "Riello MultiCOM 372"
+      },
+      "part7": {
+        "image": "/images/p7part7.jpg",
+        "name": "Riello MultiCOM 384"
+      },
+      "part8": {
+        "image": "/images/p7part8.jpg",
+        "name": "Riello MultiCOM 411"
+      },
+      "part9": {
+        "image": "/images/p7part9.jpg",
+        "name": "Riello Multi I/O"
+      },
+      "part10": {
+        "image": "/images/p7part10.jpg",
+        "name": "Riello Multi Panel"
+      },
+      "part11": {
+        "image": "/images/p7part11.jpg",
+        "name": "Environmental sensors"
+      }
+    }
+  },
+  {
+    "image": "/images/p8.jpg",
+    "name": "Solar inverter"
+  }
+]

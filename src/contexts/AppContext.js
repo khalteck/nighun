@@ -7,8 +7,13 @@ const AppContextProvider = ({ children }) => {
   const location = useLocation();
   let currentPage = location.pathname;
 
+  const contact = (e) => {
+    e.preventDefault();
+    window.location.replace(`${currentPage}#footer`);
+  };
+
   return (
-    <AppContext.Provider value={{ currentPage }}>
+    <AppContext.Provider value={{ currentPage, contact }}>
       {children}
     </AppContext.Provider>
   );

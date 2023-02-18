@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import ScrollToTop from "../ScrollToTop";
 
 const Product = () => {
   return (
@@ -8,7 +9,8 @@ const Product = () => {
       <div className="w-full min-h-screen bg-white flex justify-center items-center">
         <h1>Product</h1>
       </div>
-      <Footer />
+      <ScrollToTop />
+      <Footer id="footer" />
     </>
   );
 };

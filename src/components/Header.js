@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useAppContext } from "../contexts/AppContext";
 
 const Header = () => {
-  const { currentPage } = useAppContext();
+  const { currentPage, contact } = useAppContext();
 
   const [openMenu, setOpenMenu] = useState(false);
   function handleClick() {
@@ -51,14 +51,14 @@ const Header = () => {
             >
               About us
             </Link>
-            <Link
-              to="/"
+            <div
+              onClick={contact}
               className={`cursor-pointer px-2 py-1 ${
                 currentPage === "/contact" && "bg-[#fec901]"
               } rounded-md hover:bg-[#fec901] hover:translate-y-[6px] transition-all duration-300`}
             >
               Contact
-            </Link>
+            </div>
             <div className="w-full flex gap-2 justify-center">
               <div className="w-8">
                 <img

@@ -1,6 +1,9 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import ProductCard from "../components/ProductCard";
 import Slideshow from "../components/Slideshow";
+import ScrollToTop from "../ScrollToTop";
+import productData from "../data/Product.json";
 
 const Homepage = () => {
   return (
@@ -24,86 +27,9 @@ const Homepage = () => {
             Solutions Spa.- to represent Hungary.
           </p>
           <div className="w-full grid sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
-            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
-              <img
-                alt=""
-                src="/images/p1.jpg"
-                className="hover:opacity-60 transition-all duration-300"
-              />
-              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
-                Compact home UPSs
-              </div>
-            </div>
-            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
-              <img
-                alt=""
-                src="/images/p2.jpg"
-                className="hover:opacity-60 transition-all duration-300"
-              />
-              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
-                Office & IT UPSs
-              </div>
-            </div>
-            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
-              <img
-                alt=""
-                src="/images/p3.jpg"
-                className="hover:opacity-60 transition-all duration-300"
-              />
-              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
-                Modular UPSs
-              </div>
-            </div>
-            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
-              <img
-                alt=""
-                src="/images/p4.jpg"
-                className="hover:opacity-60 transition-all duration-300"
-              />
-              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
-                Industrial UPSs
-              </div>
-            </div>
-            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
-              <img
-                alt=""
-                src="/images/p5.jpg"
-                className="hover:opacity-60 transition-all duration-300"
-              />
-              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
-                Custom solutions
-              </div>
-            </div>
-            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
-              <img
-                alt=""
-                src="/images/p6.jpg"
-                className="hover:opacity-60 transition-all duration-300"
-              />
-              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
-                Switching systems
-              </div>
-            </div>
-            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
-              <img
-                alt=""
-                src="/images/p7.jpg"
-                className="hover:opacity-60 transition-all duration-300"
-              />
-              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
-                Software & communication
-              </div>
-            </div>
-            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
-              <img
-                alt=""
-                src="/images/p8.jpg"
-                className="hover:opacity-60 transition-all duration-300"
-              />
-              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
-                Solar inverter
-              </div>
-            </div>
+            {productData?.map((item, index) => {
+              return <ProductCard key={index} item={item} />;
+            })}
           </div>
         </section>
 
@@ -220,7 +146,8 @@ const Homepage = () => {
           </div>
         </section>
       </section>
-      <Footer />
+      <ScrollToTop />
+      <Footer id="footer" />
 
       {/* <div className="w-full min-h-screen bg-blue-50">
         <section className="top--section h-[500px] md:h-[600px] relative">

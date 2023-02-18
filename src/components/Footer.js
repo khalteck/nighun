@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const Footer = ({ id }) => {
   return (
-    <footer className="w-full bg-[#262727] pt-[50px] text-[1rem] text-slate-300">
+    <footer
+      id={id}
+      className="w-full bg-[#262727] pt-[50px] text-[1rem] text-slate-300"
+    >
       <div className="w-full mb-[60px] px-4 sm:px-[30px] lg:px-[80px] flex flex-col md:flex-row gap-4 md:gap-8 justify-between">
         <ul className="w-[fit-content] mb-10 md:mb-0">
           <li className="mb-4">
@@ -38,7 +41,7 @@ const Footer = () => {
 
         <div className="text-start md:text-center mb-10 md:mb-0">
           <h3 className="font-[700] tracking-wider text-[1.2rem] mb-4">
-            Follow us
+            Contact us
           </h3>
           <div className="flex gap-3">
             <a href="##">
