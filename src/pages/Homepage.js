@@ -192,7 +192,6 @@ const Homepage = () => {
             <h1 className="text-[1.5rem] sm:text-[2.5rem] font-normal uppercase text-center mb-1 text-slate-700">
               Partners
             </h1>
-            {/* <div className="w-full h-[1px] bg-gradient-to-r from-slate-700 to-white/10"></div> */}
           </div>
           <div className="w-full grid grid-cols-3 sm:flex gap-6 justify-center">
             <a href="http://www.presto-ups.hu/">
@@ -217,13 +216,6 @@ const Homepage = () => {
                 src="/images/IROKO LOGO.png"
                 className="w-full h-auto"
               />
-            </div>{" "}
-            <div className="1/3 sm:w-[180px] h-[50px] border border-red-500">
-              {/* <img
-                alt=""
-                src="/images/presto-ups-logo.png"
-                className="w-full h-auto"
-              /> */}
             </div>{" "}
           </div>
         </section>
@@ -280,9 +272,6 @@ const Homepage = () => {
 
         <div className="w-full flex">
           <div className="w-full flex mt-[80px] justify-end px-10">
-            <h1 className="text-[4rem] font-bold text-slate-700">
-            Under Construction
-          </h1>
             <img
               alt=""
               src="/images/taxi-construction.png"
