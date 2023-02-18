@@ -2,7 +2,13 @@ import { Link } from "react-router-dom";
 
 const ProductCard = ({ item }) => {
   return (
-    <Link to={`/product/${item.name}`}>
+    <Link
+      to={
+        item.name !== "Solar inverter"
+          ? `/product/${item.name}`
+          : "https://www.aros-solar.com/en"
+      }
+    >
       <div className="w-full min-h-[240px] bg-[#fec901] border border-[#fec901] cursor-pointer relative">
         <img
           alt=""
