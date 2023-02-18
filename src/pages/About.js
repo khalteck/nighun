@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <Header />
-      <section className="slide3 h-[300px] sm:h-[450px] relative ">
+      <section className="about mt-16 h-[250px] sm:h-[450px] relative ">
         <div className="overlay lg:px-[15%] px-5 py-10 flex items-center">
           <div className="text-white font-light mx-auto">
             <h1 className="text-[1.75rem] sm:text-[2.6rem] uppercase">
@@ -16,7 +16,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="w-full lg:px-[15%] px-5 py-20">
+      <section className="w-full lg:px-[15%] px-5 py-12 sm:py-20">
         <p className="text-[1rem] sm:text-[1.3rem] font-light">
           Welcome to Nighun, a proud partner of RIELLO Power Solutions Spa in
           Hungary, a leading manufacturer of uninterruptible power supply (UPS)

@@ -50,6 +50,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .about {
+    width: 100%;
+    /* height: 600px; */
+    background: url("../public/images/about.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
   .overlay {
     width: 100%;
     height: 100%;
