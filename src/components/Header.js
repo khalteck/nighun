@@ -35,13 +35,14 @@ const Header = () => {
               Home
             </Link>
 
-            <div
+            <Link
+              to="/product"
               className={`cursor-pointer px-2 py-1 ${
-                currentPage === "/book-ride" && "bg-[#fec901]"
+                currentPage === "/product" && "bg-[#fec901]"
               } rounded-md whitespace-nowrap hover:bg-[#fec901] hover:translate-y-[6px] transition-all duration-300`}
             >
               UPS Products
-            </div>
+            </Link>
             <Link
               to="/about"
               className={`cursor-pointer px-2 py-1 ${
@@ -51,7 +52,7 @@ const Header = () => {
               About us
             </Link>
             <Link
-              to="/contact"
+              to="/"
               className={`cursor-pointer px-2 py-1 ${
                 currentPage === "/contact" && "bg-[#fec901]"
               } rounded-md hover:bg-[#fec901] hover:translate-y-[6px] transition-all duration-300`}
@@ -110,21 +111,18 @@ const Header = () => {
                   <div className="w-full">Home</div>
                 </Link>
               </li>
-              <li
-                onClick={() => {
-                  hideDropdown();
-                }}
-                className="my-4"
-              >
-                <div className="w-full">Bookings</div>
-              </li>
               <li className="my-4">
-                <Link to="/about" onClick={hideDropdown}>
-                  <div className="w-full">About</div>
+                <Link to="/product">
+                  <div className="w-full">UPS Products</div>
                 </Link>
               </li>
               <li className="my-4">
-                <Link to="/contact" onClick={hideDropdown}>
+                <Link to="/about" onClick={hideDropdown}>
+                  <div className="w-full">About Us</div>
+                </Link>
+              </li>
+              <li className="my-4">
+                <Link to="/" onClick={hideDropdown}>
                   <div className="w-full">Contact</div>
                 </Link>
               </li>

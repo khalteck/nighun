@@ -1,59 +1,14 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Slideshow from "../components/Slideshow";
 
 const Homepage = () => {
   return (
     <>
       <Header />
       <section className="w-full min-h-screen bg-blue-50 pt-16 sm:pt-20">
-        <section className="top--section h-[300px] sm:h-[450px] relative ">
-          <div className="overlay lg:px-[15%] px-5 py-10 lg:p-[80px] flex items-center">
-            <div className="text-white font-light">
-              <h1 className="text-[1.75rem] sm:text-[2.6rem]">NEXTEnergy</h1>
-              <div className="w-full h-[1px] bg-gradient-to-r from-white to-white/10"></div>
-              <p className="text-[1rem] sm:text-[1.3rem] mt-2 mb-5">
-                Maximum performance in your hand...
-              </p>
-              <button className="py-2 px-6 bg-[#fec901] hover:bg-yellow-400/70 text-black rounded-full">
-                Details
-              </button>
-            </div>
-            {/* <div className="hero--text hidden md:block md:text-[60px] p-6 bg-black/40">
-              WEBSITE
-              <br /> UNDER
-              <br /> CONSTRUCTION
-            </div>
-            <div className="hero--text block md:hidden text-[1.5rem] p-6 bg-black/40 rounded-lg">
-              WEBSITE
-              <br /> UNDER CONSTRUCTION
-            </div> */}
-          </div>
-          {/* <div className="w-[90%] md:w-2/5 md:h-[400px] bg-blue-50 shadow-xl rounded-lg p-5 absolute bottom-[-50px] md:bottom-[-150px] left-[50%] translate-x-[-50%] md:translate-x-0 md:left-20">
-            <div className="w-full flex gap-[100px] justify-center">
-              <div className="w-[60px]">
-                <img
-                  alt=""
-                  src="/images/icons8-hungary-48.png"
-                  className="w-full h-auto rounded-lg"
-                />
-              </div>
-              <div className="w-[60px]">
-                <img
-                  alt=""
-                  src="/images/icons8-nigeria-flag-48.png"
-                  className="w-full h-auto rounded-lg"
-                />
-              </div>
-            </div>
-            <div className="w-full flex">
-              <img
-                alt=""
-                src="/images/budapest.png"
-                className="w-1/2 h-auto "
-              />
-              <img alt="" src="/images/lagos.png" className="w-1/2 h-auto " />
-            </div>
-          </div> */}
+        <section className="w-full h-[300px] sm:h-[450px] bg-black/20">
+          <Slideshow />
         </section>
 
         <section className="w-full py-10 mb-5 text-slate-700 lg:px-[15%] px-5">
@@ -69,29 +24,85 @@ const Homepage = () => {
             Solutions Spa.- to represent Hungary.
           </p>
           <div className="w-full grid sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
-            <div className="w-full border border-[#fec901]">
-              <img alt="" src="/images/p1.jpg" className="" />
+            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
+              <img
+                alt=""
+                src="/images/p1.jpg"
+                className="hover:opacity-60 transition-all duration-300"
+              />
+              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
+                Compact home UPSs
+              </div>
             </div>
-            <div className="w-full border border-[#fec901]">
-              <img alt="" src="/images/p2.jpg" className="" />
+            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
+              <img
+                alt=""
+                src="/images/p2.jpg"
+                className="hover:opacity-60 transition-all duration-300"
+              />
+              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
+                Office & IT UPSs
+              </div>
             </div>
-            <div className="w-full border border-[#fec901]">
-              <img alt="" src="/images/p3.jpg" className="" />
+            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
+              <img
+                alt=""
+                src="/images/p3.jpg"
+                className="hover:opacity-60 transition-all duration-300"
+              />
+              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
+                Modular UPSs
+              </div>
             </div>
-            <div className="w-full border border-[#fec901]">
-              <img alt="" src="/images/p4.jpg" className="" />
+            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
+              <img
+                alt=""
+                src="/images/p4.jpg"
+                className="hover:opacity-60 transition-all duration-300"
+              />
+              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
+                Industrial UPSs
+              </div>
             </div>
-            <div className="w-full border border-[#fec901]">
-              <img alt="" src="/images/p5.jpg" className="" />
+            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
+              <img
+                alt=""
+                src="/images/p5.jpg"
+                className="hover:opacity-60 transition-all duration-300"
+              />
+              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
+                Custom solutions
+              </div>
             </div>
-            <div className="w-full border border-[#fec901]">
-              <img alt="" src="/images/p6.jpg" className="" />
+            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
+              <img
+                alt=""
+                src="/images/p6.jpg"
+                className="hover:opacity-60 transition-all duration-300"
+              />
+              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
+                Switching systems
+              </div>
             </div>
-            <div className="w-full border border-[#fec901]">
-              <img alt="" src="/images/p7.jpg" className="" />
+            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
+              <img
+                alt=""
+                src="/images/p7.jpg"
+                className="hover:opacity-60 transition-all duration-300"
+              />
+              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
+                Software & communication
+              </div>
             </div>
-            <div className="w-full border border-[#fec901]">
-              <img alt="" src="/images/p8.jpg" className="" />
+            <div className="w-full bg-[#fec901] border border-[#fec901] cursor-pointer relative">
+              <img
+                alt=""
+                src="/images/p8.jpg"
+                className="hover:opacity-60 transition-all duration-300"
+              />
+              <div className="w-full h-16 text-[#fec901] font-light text-center py-3 bg-[#262727]/80 absolute left-0 bottom-0">
+                Solar inverter
+              </div>
             </div>
           </div>
         </section>
@@ -117,32 +128,32 @@ const Homepage = () => {
             </p>
           </div>
           <div className="block sm:flex gap-10 justify-between items-start">
-            <div className="w-full sm:w-1/3 flex gap-3 mb-10 sm:mb-0">
+            <div className="w-full sm:w-1/3 items-center sm:items-start flex gap-3 mb-16 sm:mb-0">
               <img
                 alt=""
                 src="/images/icons8-tools-50.png"
                 className="w-10 h-10"
               />
-              <div>
+              <div className="text-center sm:text-start">
                 <h2 className="text-[#fec901] text-[1.1rem] uppercase">
-                  Installation - commissioning
+                  Installation
                 </h2>
                 <p className="text-white mt-3 mb-5 text-[.9rem]">
                   Design, transport and installation of Riello uninterruptible
-                  power sources and networks
+                  power sources.
                 </p>
                 <button className="py-1 px-6 bg-[#fec901]/20 text-[#fec901] border border-[#fec901] hover:bg-yellow-400/70 hover:text-black rounded-md text-[0.9rem]">
                   Next
                 </button>
               </div>
             </div>
-            <div className="w-full sm:w-1/3 flex gap-3 mb-10 sm:mb-0">
+            <div className="w-full sm:w-1/3 items-center sm:items-start flex gap-3 mb-16 sm:mb-0">
               <img
                 alt=""
                 src="/images/icons8-settings-50.png"
                 className="w-10 h-10"
               />
-              <div>
+              <div className="text-center sm:text-start">
                 <h2 className="text-[#fec901] text-[1.1rem] uppercase">
                   Service services
                 </h2>
@@ -155,13 +166,13 @@ const Homepage = () => {
                 </button>
               </div>
             </div>
-            <div className="w-full sm:w-1/3 flex gap-3 sm:mb-0">
+            <div className="w-full sm:w-1/3 items-center sm:items-start flex gap-3 sm:mb-0">
               <img
                 alt=""
                 src="/images/icons8-maintenance-64.png"
                 className="w-10 h-10"
               />
-              <div>
+              <div className="text-center sm:text-start">
                 <h2 className="text-[#fec901] text-[1.1rem] uppercase">
                   Maintenance services
                 </h2>
@@ -176,18 +187,44 @@ const Homepage = () => {
           </div>
         </section>
 
-        <section className="py-12 mb-5 px-3 sm:px-8 font-light">
+        <section className="pt-12 pb-16 px-3 sm:px-8 font-light">
           <div className="w-fit mx-auto mb-10">
             <h1 className="text-[1.5rem] sm:text-[2.5rem] font-normal uppercase text-center mb-1 text-slate-700">
               Partners
             </h1>
             {/* <div className="w-full h-[1px] bg-gradient-to-r from-slate-700 to-white/10"></div> */}
           </div>
-          <div className="w-full flex gap-4">
-            <div className="w-1/4 h-12 sm:h-[100px] border border-red-500"></div>
-            <div className="w-1/4 h-12 sm:h-[100px] border border-red-500"></div>
-            <div className="w-1/4 h-12 sm:h-[100px] border border-red-500"></div>
-            <div className="w-1/4 h-12 sm:h-[100px] border border-red-500"></div>
+          <div className="w-full grid grid-cols-3 sm:flex gap-6 justify-center">
+            <a href="http://www.presto-ups.hu/">
+              <div className="1/3 sm:w-[180px] h-fit">
+                <img
+                  alt=""
+                  src="/images/presto-ups-logo.png"
+                  className="w-full h-auto"
+                />
+              </div>
+            </a>
+            <div className="1/3 sm:w-[180px] h-fit">
+              <img
+                alt=""
+                src="/images/afis logo.jpeg"
+                className="w-full h-auto"
+              />
+            </div>{" "}
+            <div className="1/3 sm:w-[180px] h-fit">
+              <img
+                alt=""
+                src="/images/IROKO LOGO.png"
+                className="w-full h-auto"
+              />
+            </div>{" "}
+            <div className="1/3 sm:w-[180px] h-[50px] border border-red-500">
+              {/* <img
+                alt=""
+                src="/images/presto-ups-logo.png"
+                className="w-full h-auto"
+              /> */}
+            </div>{" "}
           </div>
         </section>
       </section>
