@@ -197,37 +197,55 @@ const Header = () => {
                   <ul
                     className={`w-[200px] bg-transparent px-4 py-3 text-white text-[.85rem]`}
                   >
-                    <Link to="/product/Compact%20home%20UPSs">
+                    <Link
+                      onClick={hideDropdown}
+                      to="/product/Compact%20home%20UPSs"
+                    >
                       <li className="border-y border-white/20 py-2 px-2 cursor-pointer hover:bg-[#fec901]/50">
                         Compact Home UPSs
                       </li>
                     </Link>
-                    <Link to="/product/Office%20&%20IT%20UPSs">
+                    <Link
+                      onClick={hideDropdown}
+                      to="/product/Office%20&%20IT%20UPSs"
+                    >
                       <li className="border-b border-white/20 py-2 px-2 cursor-pointer hover:bg-[#fec901]/50">
                         Office & IT UPSs
                       </li>
                     </Link>
-                    <Link to="/product/Modular%20UPSs">
+                    <Link onClick={hideDropdown} to="/product/Modular%20UPSs">
                       <li className="border-b border-white/20 py-2 px-2 cursor-pointer hover:bg-[#fec901]/50">
                         Modular UPSs
                       </li>
                     </Link>
-                    <Link to="/product/Industrial%20UPSs">
+                    <Link
+                      onClick={hideDropdown}
+                      to="/product/Industrial%20UPSs"
+                    >
                       <li className="border-b border-white/20 py-2 px-2 cursor-pointer hover:bg-[#fec901]/50">
                         Industrial UPSs
                       </li>
                     </Link>
-                    <Link to="/product/Custom%20solutions">
+                    <Link
+                      onClick={hideDropdown}
+                      to="/product/Custom%20solutions"
+                    >
                       <li className="border-b border-white/20 py-2 px-2 cursor-pointer hover:bg-[#fec901]/50">
                         Custom Solutions
                       </li>
                     </Link>
-                    <Link to="/product/Switching%20systems">
+                    <Link
+                      onClick={hideDropdown}
+                      to="/product/Switching%20systems"
+                    >
                       <li className="border-b border-white/20 py-2 px-2 cursor-pointer hover:bg-[#fec901]/50">
                         Switching Systems
                       </li>
                     </Link>
-                    <Link to="/product/Software%20&%20communication">
+                    <Link
+                      onClick={hideDropdown}
+                      to="/product/Software%20&%20communication"
+                    >
                       <li className="border-b border-white/20 py-2 px-2 cursor-pointer hover:bg-[#fec901]/50">
                         Software & Communications
                       </li>
