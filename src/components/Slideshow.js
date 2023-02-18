@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper";
+import { Link } from "react-router-dom";
 
 const Slideshow = () => {
   return (
@@ -33,9 +34,11 @@ const Slideshow = () => {
                 <p className="text-[.8rem] sm:text-[1.3rem] mt-2 mb-5">
                   Maximum performance in your hand...
                 </p>
-                <button className="py-1 sm:py-2 px-6 text-[.8rem] sm:text-[1rem] bg-[#fec901] hover:bg-yellow-400/70 text-black rounded-md">
-                  Details
-                </button>
+                <Link to="/about">
+                  <button className="py-1 sm:py-2 px-6 text-[.8rem] sm:text-[1rem] bg-[#fec901] hover:bg-yellow-400/70 text-black rounded-md">
+                    Details
+                  </button>
+                </Link>
               </div>
             </div>
           </section>
@@ -52,9 +55,11 @@ const Slideshow = () => {
                   Continous power supply is guaranteed for computers, medical
                   electronics equipment, industrial appliances etc...
                 </p>
-                <button className="py-1 sm:py-2 px-6 text-[.8rem] sm:text-[1rem] bg-[#fec901] hover:bg-yellow-400/70 text-black rounded-md">
-                  Details
-                </button>
+                <Link to="/about">
+                  <button className="py-1 sm:py-2 px-6 text-[.8rem] sm:text-[1rem] bg-[#fec901] hover:bg-yellow-400/70 text-black rounded-md">
+                    Details
+                  </button>
+                </Link>
               </div>
             </div>
           </section>
@@ -69,9 +74,11 @@ const Slideshow = () => {
                   For many areas of industry, different technologies provides
                   high performance UPS equipment.
                 </p>
-                <button className="py-1 sm:py-2 px-6 text-[.8rem] sm:text-[1rem] bg-[#fec901] hover:bg-yellow-400/70 text-black rounded-md">
-                  Details
-                </button>
+                <Link to="/about">
+                  <button className="py-1 sm:py-2 px-6 text-[.8rem] sm:text-[1rem] bg-[#fec901] hover:bg-yellow-400/70 text-black rounded-md">
+                    Details
+                  </button>
+                </Link>
               </div>
             </div>
           </section>
