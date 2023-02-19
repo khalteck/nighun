@@ -25,18 +25,38 @@ const Footer = ({ id }) => {
           <li className="w-[fit-content] mb-2 cursor-pointer hover:text-[#fec901]">
             <Link to="/about">About Us</Link>
           </li>
-          <li className="w-[fit-content] mb-2 cursor-pointer hover:text-[#fec901]">
+          {/* <li className="w-[fit-content] mb-2 cursor-pointer hover:text-[#fec901]">
             <Link to="/contact">UPS Product</Link>
-          </li>
+          </li> */}
         </ul>
 
         <ul className="mb-10 md:mb-0">
           <li className="font-[700] tracking-wider text-[1.2rem] mb-4">
-            Terms of use
+            Products
           </li>
-          <li className="w-[fit-content] mb-2 cursor-pointer hover:text-[#fec901]">
-            <Link to="/privacy-policy">Privacy policy</Link>
-          </li>
+          <Link to="/product/Compact%20home%20UPSs">
+            <li className="hover:text-[#fec901] mb-2">Compact Home UPSs</li>
+          </Link>
+          <Link to="/product/Office%20&%20IT%20UPSs">
+            <li className="hover:text-[#fec901] mb-2">Office & IT UPSs</li>
+          </Link>
+          <Link to="/product/Modular%20UPSs">
+            <li className="hover:text-[#fec901] mb-2">Modular UPSs</li>
+          </Link>
+          <Link to="/product/Industrial%20UPSs">
+            <li className="hover:text-[#fec901] mb-2">Industrial UPSs</li>
+          </Link>
+          <Link to="/product/Custom%20solutions">
+            <li className="hover:text-[#fec901] mb-2">Custom Solutions</li>
+          </Link>
+          <Link to="/product/Switching%20systems">
+            <li className="hover:text-[#fec901] mb-2">Switching Systems</li>
+          </Link>
+          <Link to="/product/Software%20&%20communication">
+            <li className=" hover:text-[#fec901] mb-3">
+              Software & Communications
+            </li>
+          </Link>
         </ul>
 
         <div className="text-start md:text-center mb-10 md:mb-0">
@@ -44,21 +64,21 @@ const Footer = ({ id }) => {
             Contact us
           </h3>
           <div className="flex gap-3">
-            <a href="##">
+            <a href="https://www.linkedin.com/company/nighun/">
               <img
                 alt=""
                 src="/images/icon-linkedin.svg"
                 className="w-[30px] h-[30px] cursor-pointer hover:translate-y-[6px] transition-all duration-300"
               />
             </a>
-            <a href="##">
+            <a href="https://wa.me/+36203510972">
               <img
                 alt=""
                 src="/images/icon-whatsapp.svg"
                 className="w-[30px] h-[30px] cursor-pointer hover:translate-y-[6px] transition-all duration-300"
               />
             </a>
-            <a href="##">
+            <a href="tel:+36203510972">
               <img
                 alt=""
                 src="/images/icon-phone-png"
@@ -72,9 +92,13 @@ const Footer = ({ id }) => {
           <h3 className="font-[700] tracking-wider text-[1.2rem] mb-4">
             Address
           </h3>
-          <p>
+          <p className="mb-5">
             No.1. Odemola Aramoko Shopping Complex, Cannan Estate, Sangotedo,
-            Ajah, Lagos.
+            Ajah, Lagos, Nigeria.
+          </p>
+          <p>
+            H-1116 Budapest <br />
+            Vegyesz utca 17-25, Hungary.
           </p>
         </div>
       </div>

@@ -3,6 +3,17 @@
 @tailwind utilities;
 
 @layer utilities {
+  .rotate {
+    animation: rotation 0.8s infinite linear;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(359deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
   .slide {
     animation: slide 0.8s ease-out;
   }
